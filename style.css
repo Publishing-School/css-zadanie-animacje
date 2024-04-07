@@ -1,0 +1,80 @@
+/* Dla elementu body zastosuj czcionkę Kode Mono, monospace, 
+tło o kolorze #fdf9fd, 
+kolor tekstu #464646. */
+body {
+  background-color: #e6dddd76;
+  font-family: "Kode Mono", monospace;
+  color: #464646;
+}
+
+/* Element H1 ma mieć rozmiar czcionki 60px, 
+wysokość wiersza 1.1, 
+czcionkę o wadze 400. */
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+/* Element H2 ma mieć rozmiar czcionki 36px,
+tekst ma byc wyśrodkowany,
+kolor tekstu czarny. */
+h2 {
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+
+/*Akapit ma mieć rozmiar czcionki 20px,
+odstęp między literami 1px,
+tekst wyjustowany. */
+p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/*Elementy o ID underline mają mieć podkreślenie,
+kolor podkreślenia #bc00dd,
+odstęp od tekstu 7px,
+czcionkę o wadze 500. */
+#underline {
+  text-decoration: underline;
+  text-decoration-color: #bc00dd;
+  text-underline-offset: 7px;
+  font-weight: 500;
+}
+
+/*Elementy o klasie text-decoration mają mieć cień tekstu,
+kolor cienia #bc00dd,
+czcionkę o wadze 700,
+styl kursywa,
+odstęp między literami 10px,
+rozmiar czcionki 80px,
+kolor tekstu czarny. */
+.text-decoration {
+  text-shadow: -7px 10px 2px #bc00dd;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 10px;
+  font-size: 80px;
+  color: black;
+}
+
+section {
+  padding-top: 60px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 10px 20px;
+  min-width: 300px;
+  box-shadow: none;
+  outline: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
